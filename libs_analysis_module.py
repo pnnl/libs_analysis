@@ -154,7 +154,7 @@ def create_lambda_ind(elements, element_wavelengths, all_lambdas, single_wavelen
     return lambda_ind
 
 # Create expected wavelengths vs. elements dictionary
-def get_element_wavelength_dict(fname='Element_Intensity_Profiles_Shortlist.csv'):
+def get_element_wavelength_dict(fname='Element_Intensity_Profiles.csv'):
     
     # Load list of elementy intensity values at each wavelength
     f = np.genfromtxt(fname, dtype=str, delimiter=',')
